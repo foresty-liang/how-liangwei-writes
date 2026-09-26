@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>梁巍的写法</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="logo">梁</span>
+      <div class="title-block">
+        <h1>梁巍的写法</h1>
+        <p class="subtitle">100 篇真实元新闻记者梁巍稿件 · 1682 行文风手册 · AI 写作助手</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <button id="new-chat" class="btn-new">+ 新建对话</button>
+      <div id="history-list" class="history-list"></div>
+      <div class="footer-note">
+        <p>小圈子内测 · 6-7 人</p>
+      </div>
+    </aside>
+
+    <section class="chat-area">
+      <div id="messages" class="messages">
+        <div class="empty-state">
+          <h2>开始一次写作</h2>
+          <p>输入一个主题，AI 帮你写出梁巍风格的中国产业报道。</p>
+          <div class="examples">
+            <p class="examples-title">试试这样问：</p>
+            <button class="example-btn">写一篇奇瑞出海稿</button>
+            <button class="example-btn">写一篇讯飞抢滩香港稿</button>
+            <button class="example-btn">写一篇徽商 90 后群像综述</button>
+            <button class="example-btn">帮我润色这段文字</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <textarea
+          id="input"
+          placeholder="输入主题或问题，按 Ctrl+Enter 发送..."
+          rows="3"
+        ></textarea>
+        <div class="input-actions">
+          <span class="hint">基于 100 篇范文 + 1682 行文风手册</span>
+          <button id="send" class="btn-send">发送</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

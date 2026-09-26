@@ -1,0 +1,14 @@
+{
+  "name": "liangwei-write",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "梁巍的写法 - 梁巍风格 AI 写作助手",
+  "scripts": {
+    "build-knowledge": "node scripts/build-knowledge.js",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
